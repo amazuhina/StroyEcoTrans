@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .head {
+    margin: 0 auto;
+    max-width: 525px;
+    padding-top:90px;
+    .title {
+      padding: 80px 0 50px;
+      font-size: 72px;
+      letter-spacing: 0.24px;
+      line-height: 80px;
+      margin: 0;
+    }
+  }
+
+
+
+  .clients {
+    .slider {
+      display: none;
+    }
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .slider_item {
+      margin: 25px 0;
+      width: 250px;
+      height: 140px;
+    }
+    .background {
+      width: 250px;
+      height: 140px;
+      .img {
+        width: 250px;
+      }
+    }
+  }
+
+
+  .reviews {
+    .slider {
+      margin: 0 auto;
+    }
+  }
+}
